@@ -1,0 +1,23 @@
+.buttons {
+    width: 96%;
+    margin: 3px auto;
+}
+
+button {
+    width: 25%;
+    height: 43px;
+    background-color: white;
+    border: 1px #e8e8e83d ridge;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #004aa9;
+}
+
+button:active {
+    background-color: #cfedff;
+    border: 1px #849eff solid;
+}
+
+button:hover {
+    border: 1px #849eff solid;    
+}
