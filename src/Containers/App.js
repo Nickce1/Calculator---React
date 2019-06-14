@@ -1,17 +1,15 @@
 import React, {useState} from 'react';
 
-import Screen from './Screen/Screen'
-import Button from './Button/Button'
-
+import Screen from '../Components/Screen/Screen'
+import Button from '../Components/Button/Button'
 import './App.css'
-import './Button/Button.css'
+import '../Components/Button/Button.css'
 
 function App() {
   const [result, setResult] = useState (0)
   const [display, setDisplay] = useState("")
   
   const clicked = event => {
-    // debugger;
     let val = event.target.innerHTML;
     let ops = ["+", "-", "*", "/"]
 
